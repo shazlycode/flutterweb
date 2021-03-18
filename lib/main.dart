@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(primarySwatch: Colors.amber[300]),
+      theme: ThemeData(primaryColor: Colors.amber[300]),
       home: MainScreen(),
       routes: {
         DrugDetails.id: (context) => DrugDetails(),
